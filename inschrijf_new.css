@@ -1,0 +1,240 @@
+/*
+
+Voor iedereen die een minimale versie van het API inschrijfformulier wil hebben
+/SIDEWAY/include/customized/pages/417/inschrijf_new.css
+
+https://www.europewebcompany.com/SIDEWAY/API/general/online_registration.php?&tr=1&lang=&memIDS=&m=1&css=%2FSIDEWAY%2Finclude%2Fcustomized%2Fpages%2F417%2Finschrijf_new.css&data=aZRWgHmuUmqa4pcxR714LjqvkQO%2FXVaHhFg6CeFGmso%3D&algvoorwaarden=&doSendMail=
+
+
+*/
+.element-file,
+.title,
+.element-country {
+  display: none;
+}
+.h3_maak_uw_keuze {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.formoid-solid-blue {
+  border-color: #b6c7d3;
+  border-style: solid;
+  border-width: 1px;
+  /*ax-width: 650px;*/
+}
+
+.formoid-solid-blue label.title {
+  font-size: 1em;
+  font-weight: 500;
+  width: auto;
+  padding: 14px 10px 2px 0px;
+  color: #000c1d;
+}
+
+.formoid-solid-blue input[type="text"],
+.formoid-solid-blue input[type="password"],
+.formoid-solid-blue input[type="email"],
+.formoid-solid-blue input[type="url"],
+.formoid-solid-blue input[type="date"],
+.formoid-solid-blue input[type="number"],
+.formoid-solid-blue input[type="tel"],
+.formoid-solid-blue textarea,
+.formoid-solid-blue .element-file .file_text,
+.formoid-solid-blue select {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b6c7d3;
+  -webkit-transition: border-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  border-radius: 3px;
+  padding: 10px 10px 9px 2.3em;
+  outline: none;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  font-size: 1em;
+}
+
+.formoid-solid-blue input[type="text"]:hover,
+.formoid-solid-blue input[type="tel"]:hover,
+.formoid-solid-blue input[type="password"]:hover,
+.formoid-solid-blue input[type="email"]:hover,
+.formoid-solid-blue input[type="url"]:hover,
+.formoid-solid-blue input[type="date"]:hover,
+.formoid-solid-blue input[type="number"]:hover,
+.formoid-solid-blue input[type="file"]:hover,
+.formoid-solid-blue textarea:hover,
+.formoid-solid-blue select:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b2a685;
+  -webkit-transition: border-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  border-radius: 3px;
+  padding: 10px 10px 9px 2.3em;
+  outline: none;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  font-size: 1em;
+}
+.formoid-solid-blue input[type="text"]:focus,
+.formoid-solid-blue input[type="tel"]:focus,
+.formoid-solid-blue input[type="password"]:focus,
+.formoid-solid-blue input[type="email"]:focus,
+.formoid-solid-blue input[type="url"]:focus,
+.formoid-solid-blue input[type="date"]:focus,
+.formoid-solid-blue input[type="number"]:focus,
+.formoid-solid-blue input[type="file"]:focus,
+.formoid-solid-blue textarea:focus,
+.formoid-solid-blue select:focus {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b2a685;
+  -webkit-transition: border-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  border-radius: 3px;
+  padding: 10px 10px 9px 2.3em;
+  outline: none;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  font-size: 1em;
+}
+.formoid-solid-blue input:focus ~ .icon-place:before,
+.formoid-solid-blue textarea:focus ~ .icon-place:before,
+.formoid-solid-blue select:focus ~ .icon-place:before,
+.formoid-solid-blue .select.open ~ .icon-place:before,
+.formoid-solid-blue input[type="file"]:focus ~ .icon-place:before,
+.formoid-solid-blue .button:focus ~ .icon-place:before,
+.formoid-solid-blue .file_text:focus ~ .icon-place:before {
+  color: #b2a685;
+}
+.formoid-solid-blue input[type="submit"] {
+  border-color: #b2a685;
+  background-color: #b2a685;
+}
+
+.formoid-solid-blue input[type="submit"]:hover {
+  border-color: #b2a685;
+  background-color: #ff2a13;
+}
+.formoid-solid-blue input[type="submit"]:active {
+  border-color: #b2a685;
+  background-color: #b2a685;
+}
+
+.formoid-solid-blue input[type="checkbox"]:checked + span:before {
+  color: #b2a685;
+  border-color: #b2a685;
+}
+.formoid-solid-blue input[type="radio"]:checked + span:before {
+  color: #b2a685;
+  border-color: #b2a685;
+}
+
+#group_8105 .mem_betaalmethode,
+#group_8105 .mem_price {
+  visibility: hidden;
+}
+.element-backaccount .required {
+  display: none;
+}
+
+.formoid-solid-blue .element-file .button {
+  background-color: #b2a685;
+}
+.datepicker {
+  border: 1px solid #b2a685;
+}
+.datepicker td.active,
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:focus,
+.datepicker td.active:hover:focus,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled],
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td span.active,
+.datepicker td span.active:hover,
+.datepicker td span.active:focus,
+.datepicker td span.active:active,
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active[disabled] {
+  color: #ffffff;
+  background-image: none;
+  background-color: #b2a685;
+}
+.datepicker:before {
+  border-bottom: 7px solid #b2a685;
+}
+.formoid-solid-blue input[type="submit"]:hover {
+  border-color: #000000;
+  background-color: #b2a685;
+}
+
+.formoid-solid-blue .icon-place:before {
+  position: absolute;
+  font: 1em "icons";
+  vertical-align: top;
+  /* top: 15px; */
+  /* left: 0.9em; */
+  pointer-events: none;
+  color: #a2a6a8;
+  z-index: 2;
+  display: none;
+}
+
+.formoid-solid-blue .btn {
+  text-align: left;
+  border: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 9px 10px;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  border-radius: 3px;
+  border: 1px solid #b6c7d3;
+  background-color: #fff;
+  font-size: 1em;
+}
+
+.formoid-solid-blue input[type="radio"]:hover + span:before {
+  color: #b2a685;
+}
+
+.formoid-solid-blue input[type="radio"] + span:before {
+  content: "\e001";
+  display: none;
+}
+
+.formoid-solid-blue input[type="radio"]:checked + span:before {
+  content: "\e000";
+  display: none;
+}
